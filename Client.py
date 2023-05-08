@@ -8,7 +8,7 @@ PORT = 50000
 
 #Função que gera um número
 def gerarNum():
-    return str(random.randint(1, 9999999))
+    return str(random.randint(1, 999999999999999999999999999999))
 
 #Socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
